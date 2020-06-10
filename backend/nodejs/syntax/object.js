@@ -1,0 +1,16 @@
+var members = ['egoing', 'jungseok', 'jongwon'];
+
+console.log(members[1]);
+
+var roles = {
+'programmer' : 'egoing',
+'designer' : 'k8805',
+'manager' : 'hoya'
+}
+
+console.log(roles.designer);
+
+for(var name in roles){
+  console.log(name);
+  console.log('object: ', name, 'value : ', roles[name]);
+}
