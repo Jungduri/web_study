@@ -16,12 +16,21 @@
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
     <!-- file Upload section-->
-    <h1>File upload for Jongwon</h1>
-    <div class="filebox">
-      <label for="ex_file">Upload</label>
-      <input type="file" id="ex_file">
-    </div>
+    <h1>File upload for wihak</h1>
+    <form action="/uploads" , method="post" , enctype="multipart/form-data">
+      <div class="filebox">
+        <label for="ex_file">Upload</label>
+        <input type="file" name="wihak" />
+        <input type="submit" />
+      </div>
+    </form>
+    <hr>
+    <% for (var i = 0; i<length; i++) { %>
 
-
+    <a href=<%=path+title[i]%> download> <%=title[i]%> </a>
+        <p><%=description[i]%></p>
+    <hr>
+    <% } %>
+    <ul> how to dynamically read files and update</ul>
   </body>
 </html>
