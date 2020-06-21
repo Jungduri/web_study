@@ -1,0 +1,171 @@
+body{
+  line-height:1;
+}
+
+.head{
+  background-color: #2d2d2d;
+}
+
+.login{
+  background-color: #2d2d2d;
+  color: white;
+  margin-left: 1em;
+  line-height: 2;
+}
+
+.page-title{
+  text-align: center;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 20px;
+}
+
+.menu-wrapper{
+  background-color: #2d2d2d;
+}
+
+.navigation{
+
+}
+
+#topMenu{
+  height:30px;
+  display: inline-block;
+  width: 100%;
+  overflow: auto;
+}
+
+#topMenu ul{
+  list-style-type: none;
+  margin:0px;
+  padding:0px;
+  display: flex;
+  overflow: hidden;
+}
+
+#topMenu ul li{
+  color:white;
+  background-color: #2d2d2d;
+  float:none;
+  line-height:30px;
+  vertical-align: middle;
+  text-align:center;
+  position:relative;
+  width: 16.7%;
+}
+
+.submenu{
+  position: absolute;
+  height:0px;
+  overflow:hidden;
+  transition: height .2s;
+  -webkit-transition: height .2s;
+  -moz-transition: height .2s;
+  -o-transition: height .2s;
+  width:574px;
+}
+
+.submenu li{
+  display:inline-block;
+}
+
+.menuLink{
+  float:left;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  width:100%;
+}
+
+.submenuLink{
+  text-decoration: none;
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  width:150px;
+}
+
+.menuLink{
+  color:white;
+}
+
+.topMenuLi:hover .menuLink{
+  color:red;
+  background-color: #4d4d4d;
+}
+
+/*
+
+#login{
+  list-style-type: none;
+  clear:both;
+  width:200;
+  height:30px;
+  float:right;
+  top:10px;
+  overflow:hidden;
+}
+*/
+
+/*
+article, footer, hgroup, menu, nav, section{
+  display: block;
+}
+
+html, body, div span, footer, hgroup, menu, nav, section {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  vertical-align: baseline;
+}
+*/
+/*
+
+.longLink{
+  width:190px;
+}
+
+.submenuLink{
+  color:#2d2d2d;
+  background-color: white;
+  border:solid 1px black;
+  margin-right:-1px;
+}
+
+
+
+.topMenuLi:hover .submenu{
+  height: 32px;
+}
+
+.submenuLink:hover{
+  color:red;
+  background-color: #dddddd;
+}
+
+
+h3{
+  text-align: center;
+  color: white;
+}
+
+header, h3{
+  background-color: #2d2d2d;
+  margin:0px;
+}
+
+ul{
+  display:block;
+
+}
+
+.head ul{
+  background-color: #2d2d2d;
+}
+
+ul{
+  background-color: #2d2d2d;
+}
+*/
